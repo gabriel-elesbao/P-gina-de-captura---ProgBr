@@ -6,11 +6,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #CACFD2;
+
 }
 
 .container{
     max-width: 1000px;
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 header{
@@ -27,8 +30,10 @@ header{
 section{
     padding: 20px;
     background-image: url(../images/people.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-size: cover;
     overflow: hidden;
+
 }
 
 .formContainer{
@@ -36,6 +41,7 @@ section{
     background-color: #ffffffbb;
     padding: 20px;
     float: right;
+
 }
 
 h2{
@@ -73,10 +79,14 @@ select{
     background-position-y: center; */
     outline: none;
     
+    
 }
 
 .picture{
     width: 165px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5px;
+
 }
 
 footer{
@@ -101,6 +111,19 @@ footer{
     font-size: 24px;
 }
 
+@media screen and (max-width: 720px) {
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+
+    .description{
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    
+}
 
 
 
