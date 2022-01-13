@@ -10,7 +10,7 @@
   
 ## 📝Descrição  
 <p> 
-    Treino de html e css no curso do ProgramadorBr 
+    Treino de html e css utilizando Mailchimp
 </p><br>
 
 
